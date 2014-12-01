@@ -46,7 +46,7 @@ public class UploadServlet extends HttpServlet {
 
       // Set factory constraints
       factory.setSizeThreshold(3000 * 1024 * 1024);
-      File temp = new File("/home/lscm/tmp/uploadfile");
+      File temp = new File("/home/wp/tmp/uploadfile");
       factory.setRepository(temp);
 
       // Create a new file upload handler
